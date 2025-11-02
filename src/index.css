@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* smooth scroll & base styles */
+:root {
+  --primary: #2563eb; /* blue-600 */
+  --accent: #60a5fa;
+  --muted: #64748b;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background-color: #4d6078;
+  color: #0f172a;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* small helper classes */
+.section {
+  @apply max-w-6xl mx-auto px-6 py-20;
+}
+.card {
+  @apply bg-white rounded-2xl shadow-md p-6;
+}
+.btn {
+  @apply inline-block px-5 py-2 rounded-lg font-medium transition;
+}
+.btn-primary {
+  @apply bg-[var(--primary)] text-white hover:opacity-95;
+}
+.badge {
+  @apply inline-block text-sm px-3 py-1 rounded-full bg-white shadow text-[var(--primary)];
+}
