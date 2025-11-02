@@ -1,7 +1,7 @@
 const groups = {
-  "Languages & Frameworks": ["JavaScript", "TypeScript", "React", "Next.js", "Node.js"],
-  "Databases & Cloud": ["PostgreSQL", "MongoDB", "GCP", "Docker"],
-  "Tools & Concepts": ["Git", "TailwindCSS", "System Design", "AI/ML"]
+  "Languages & Frameworks": ["C#"],
+  "Game Feature": ["Game Animation, Game Physics, AI Systems, NavMesh, Timelines UI/UX, Prefabs"],
+  "Tools & Concepts": ["Visual Studio, Git, Unity(Engine), Blender (3D modeling), Canva (UI design assets)"]
 };
 
 export default function Skills() {
